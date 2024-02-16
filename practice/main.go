@@ -14,6 +14,7 @@ func main() {
 	floatSum := f1 + f2 + f3
 	fmt.Println("Float sum: ", floatSum)
 
+	fmt.Printf("The sum is now:  %.1f\n", floatSum)
 	floatSum = math.Round(floatSum*100) / 100
 	fmt.Println("The sum is now: ", floatSum)
 
